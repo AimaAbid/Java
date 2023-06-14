@@ -6,6 +6,7 @@ public class T {
         System.out.println("Enter the salary");
         Scanner Sc = new Scanner(System.in);
         double salary = Sc.nextDouble();
+        Sc.close();
 
         if (salary <= 250000)
             tax = 0;

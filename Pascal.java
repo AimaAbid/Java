@@ -6,6 +6,7 @@ public class Pascal {
 
         Scanner Sc = new Scanner(System.in);
         int nol = Sc.nextInt();
+        Sc.close();
 
         int spaces = nol;
         int number = 1;
