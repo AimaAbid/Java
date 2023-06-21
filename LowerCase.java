@@ -7,7 +7,7 @@ class LowerCase {
         Scanner Sc = new Scanner(System.in);
         String name = "";
 
-        name += Sc.nextLine();
+        name = name + Sc.nextLine();
         Sc.close();
         name = name.toLowerCase();
         System.out.println("the result is:  " + name);
